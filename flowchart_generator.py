@@ -98,7 +98,7 @@ def generate_mermaid_flowchart(response):
     return chat_completion.choices[0].message.content
 
 # Streamlit app
-st.title("AI-Powered Complex Flowchart Generator")
+st.title("FlowMinds")
 
 st.write("""
 This application uses OpenAI's API to generate responses to your questions and create detailed flowcharts based on those responses.
